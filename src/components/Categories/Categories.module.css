@@ -1,0 +1,30 @@
+h2 {
+  margin-bottom: 12px;
+}
+
+.CategoryContainer {
+  padding: 4px;
+  display: inline-block;
+}
+
+.Category {
+  background-color: white;
+  height: 6vw;
+  border: 1px solid #adc9b8;
+}
+
+.Category:hover {
+  cursor: pointer;
+  background-color: #3a3a3a;
+  color: white;
+}
+
+.Category span {
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.8vw;
+  margin: 0 auto;
+  position: absolute;
+}

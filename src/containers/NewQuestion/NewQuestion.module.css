@@ -1,0 +1,67 @@
+.NewQuestionContainer {
+  margin-top: 60px;
+}
+
+.NewQuestion {
+  margin: 0 auto 0 auto;
+  display: block;
+  resize: none;
+  height: 10vw;
+  border-radius: 12px;
+  padding-left: 6px;
+  border: 1px solid #3a3a3a;
+  background-color: #748279;
+  color: white;
+  font-size: 2vh;
+}
+
+.NewAnswersDiv {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.NewAnswer {
+  display: block;
+  margin: 6px auto 0 auto;
+  padding-left: 10px;
+  border: 1px solid #3a3a3a;
+  background-color: #748279;
+  color: white;
+  height: 4vw;
+  font-size: 2vh;
+}
+
+.NewQuestion::placeholder,
+.NewAnswer::placeholder {
+  color: #c0c0c0;
+}
+
+.SubmitDiv {
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.CategSelect {
+  padding-left: 10px;
+  border: 1px solid #3a3a3a;
+  background-color: #748279;
+  height: 4vw;
+  color: white;
+  height: 4vw;
+  font-size: 2vh;
+  margin-right: 6px;
+}
+
+.SubmitBtn {
+  height: 4vw;
+  background-color: white;
+  border: 1px solid #adc9b8;
+  font-size: 1.6vw;
+  margin-left: 6px;
+}
+
+.SubmitBtn:hover {
+  cursor: pointer;
+  background-color: #3a3a3a;
+  color: white;
+}

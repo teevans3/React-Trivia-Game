@@ -1,0 +1,18 @@
+h2 {
+  margin-top: 30px;
+}
+
+.Trivia {
+  margin-top: 90px;
+}
+
+.Categories {
+  width: 80%;
+  margin: 120px auto 0 auto;
+}
+
+@media (max-width: 500px) {
+  .Trivia {
+    margin-top: 30px;
+  }
+}

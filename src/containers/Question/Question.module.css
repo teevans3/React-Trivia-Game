@@ -1,0 +1,48 @@
+.Question {
+  font-size: 2vw;
+  margin-bottom: 12px;
+}
+
+.AnswerChoice {
+  height: 4vw;
+  background-color: white;
+  border: 1px solid #adc9b8;
+  font-size: 1.6vw;
+  margin: 6px auto 0 auto;
+}
+
+.AnswerChoice:hover {
+  cursor: pointer;
+  background-color: #3a3a3a;
+  color: white;
+}
+
+.AnswerChoice span {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.NextBtn {
+  height: 3vw;
+  margin: 24px auto 0 auto;
+  border: 1px solid #3a3a3a;
+  background-color: #748279;
+  color: white;
+}
+
+.NextBtn:hover {
+  cursor: pointer;
+  background-color: #3a3a3a;
+}
+
+.NextBtn span {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.8vh;
+}
