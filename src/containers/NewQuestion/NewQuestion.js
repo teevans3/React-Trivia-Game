@@ -75,8 +75,8 @@ class NewQuestion extends Component {
       };
     }
     // Make sure answer choices are all unique
-    for (q in newQuestion.answerChoices) {
-      for (k in newQuestion.answerChoices) {
+    for (var q in newQuestion.answerChoices) {
+      for (var k in newQuestion.answerChoices) {
         if (
           newQuestion.answerChoices[q] === newQuestion.answerChoices[k] &&
           q !== k
@@ -146,7 +146,7 @@ class NewQuestion extends Component {
       return (
         <input
           className={classes.NewAnswer + " col-8 rounded-pill"}
-          onChange={() => this.onUpdateAnswerChoice(event, answerType)}
+          onChange={(event) => this.onUpdateAnswerChoice(event, answerType)}
           type="text"
           placeholder={placeholder}
           name={answerType}
@@ -161,13 +161,13 @@ class NewQuestion extends Component {
           className={classes.NewQuestion + " col-10"}
           type="text"
           placeholder="Question"
-          onChange={() => this.onUpdateQuestion(event)}
+          onChange={(event) => this.onUpdateQuestion(event)}
         ></textarea>
         <div className={classes.NewAnswersDiv}>{answerInputs}</div>
         <div className={classes.SubmitDiv + " col-8"}>
           <select
             className={classes.CategSelect + " col-8 rounded-pill"}
-            onChange={() => this.onUpdateCategory(event)}
+            onChange={(event) => this.onUpdateCategory(event)}
           >
             <option
               value={null}
